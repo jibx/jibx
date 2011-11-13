@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jibx.config</groupId>
+    <artifactId>xbis-jibx-mvn</artifactId>
+    <version>1.2.4-SNAPSHOT</version>
+  </parent>
+
+  <groupId>org.jibx</groupId>
+  <artifactId>xbis-jibx</artifactId>
+  <packaging>bundle</packaging>
+
+  <name>xbis-jibx</name>
+  <description>JiBX/WS is a framework for creating fast, simple web services.</description>
+
+  <profiles>
+    <profile> 
+      <id>sonatype-oss-release</id>
+      <build>
+      <!-- ***CAREFUL*** This logic moves the source code to the current project, then
+      does NOT compile it. This way, the api and source are in the repo. -->
+	    <plugins>
+	      <plugin>
+	        <artifactId>maven-resources-plugin</artifactId>
+	        <version>2.4.3</version>
+	        <executions>
+          <execution>
+            <id>copy-xbis</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/src/main/java</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>/home/don/workspace-jibx/jibx/web-services/xbis/build/src</directory>
+                  <filtering>false</filtering>
+                  <includes>
+                    <include>com/sosnoski/util/**/*.java</include>
+                    <include>org/xbis/**/*.java</include>
+                  </includes>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+	        </executions>
+	      </plugin>
+	    </plugins>
+      </build>
+    </profile>
+  </profiles>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <Export-Package>
+                org.xbis.*;version=${project.version},
+            </Export-Package>
+            <Private-Package>
+                com.sosnoski.util.*;version=${project.version},
+            </Private-Package>
+	    <Include-Resource>@/home/don/workspace-jibx/jibx/web-services/xbis/xbis-jibx.jar;inline=**</Include-Resource>
+          </instructions>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jibx</groupId>
+      <artifactId>jibx-run</artifactId>
+      <version>1.2.4-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
+</project>

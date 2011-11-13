@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jibx.config</groupId>
+    <artifactId>jibx-reactor</artifactId>
+    <version>1.2.4-SNAPSHOT</version>
+  </parent>
+
+  <groupId>org.jibx.ws.config</groupId>
+  <artifactId>web-services-reactor</artifactId>
+
+  <packaging>pom</packaging>
+  <name>web-services-reactor - JiBX web services top-level project</name>
+  <description>JiBX web services top-level project</description>
+
+      <modules>
+        <module>xbis-jibx-mvn</module>
+        <module>jibxws</module>
+      </modules>
+
+</project>

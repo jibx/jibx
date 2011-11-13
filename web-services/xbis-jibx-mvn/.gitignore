@@ -1,0 +1,12 @@
+target
+.settings
+.project
+.classpath
+*~
+.metadata
+*.releaseBackup
+release.properties
+.wtpmodules
+xbis-jibx/src/main/java
+jibxws/src/main/java
+
