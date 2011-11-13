@@ -15,7 +15,7 @@ git commit -m "$1" -a
 git push
 done
 
-cd ../..
+cd ..
 git add .
 git commit -m "$1" -a
 git push
