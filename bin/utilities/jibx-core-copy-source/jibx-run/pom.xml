@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jibx.config</groupId>
+    <artifactId>jibx-parent</artifactId>
+    <version>1.2.4-SNAPSHOT</version>
+    <relativePath>../../jibx-parent</relativePath>
+  </parent>
+
+  <groupId>org.jibx</groupId>
+  <artifactId>jibx-run</artifactId>
+  <packaging>bundle</packaging>
+
+  <name>jibx-run - JiBX runtime</name>
+  <description>JiBX runtime code</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>xpp3</groupId>
+      <artifactId>xpp3</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>

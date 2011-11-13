@@ -1,0 +1,18 @@
+[submodule "core"]
+	path = core
+	url = git@github.com:jibx/core.git
+[submodule "jibx-parent"]
+	path = jibx-parent
+	url = git@github.com:jibx/jibx-parent.git
+[submodule "web-services"]
+	path = web-services
+	url = git@github.com:jibx/web-services.git
+[submodule "plugins"]
+	path = plugins
+	url = git@github.com:jibx/plugins.git
+[submodule "schema-library"]
+	path = schema-library
+	url = git@github.com:jibx/schema-library.git
+[submodule "sub-projects"]
+	path = sub-projects
+	url = git@github.com:jibx/sub-projects.git

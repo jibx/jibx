@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.jibx.config</groupId>
+  <artifactId>jibx-core-copy-source</artifactId>
+  <version>1.2.4-SNAPSHOT</version>
+  
+  <packaging>pom</packaging>
+  <name>jibx-core-reactor - JiBX core reactor</name>
+  <description>JiBX</description>
+
+  <modules>
+    <module>jibx-run</module>
+    <module>jibx-extras</module>
+    <module>jibx-bind</module>
+    <module>jibx-schema</module>
+    <module>jibx-tools</module>
+  </modules>
+
+</project>

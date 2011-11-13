@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jibx.config</groupId>
+    <artifactId>jibx-parent</artifactId>
+    <version>1.2.4-SNAPSHOT</version>
+    <relativePath>../../jibx-parent</relativePath>
+  </parent>
+
+  <groupId>org.jibx</groupId>
+  <artifactId>jibx-tools</artifactId>
+  <packaging>bundle</packaging>
+
+  <name>jibx-tools - JiBX tools</name>
+  <description>JiBX tools code</description>
+
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>org.jibx</groupId>
+          <artifactId>maven-jibx-plugin</artifactId>
+          <version>${jibx-build-plugin-version}</version>
+          <executions>
+              <execution>
+                  <id>compile-jibx-beans</id>
+                  <phase>process-classes</phase>
+                  <goals>
+                      <goal>bind</goal>
+                  </goals>
+              </execution>
+          </executions>
+          <configuration>
+              <includes>
+                  <include>class-customs-binding.xml</include>
+                  <include>schema-extract-binding.xml</include>
+                  <include>xsdcodegen-customs-binding.xml</include>
+                  <include>wsdl-binding.xml</include>
+                  <include>wsdlgen-customs-binding.xml</include>
+              </includes>
+          </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>jibx-schema</artifactId>
+      <version>1.2.4-SNAPSHOT</version>
+    </dependency>
+
+      <!-- Eclipse dependencies -->
+      <dependency>
+          <groupId>org.eclipse.jdt</groupId>
+          <artifactId>core</artifactId>
+          <exclusions>
+              <exclusion>
+                  <groupId>org.eclipse.equinox</groupId>
+                  <artifactId>common</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.eclipse.equinox</groupId>
+                  <artifactId>app</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>org.eclipse.equinox</groupId>
+          <artifactId>common</artifactId>
+      </dependency>
+
+  </dependencies>
+
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.jibx.config</groupId>
+  <artifactId>jibx-reactor</artifactId>
+  <version>1.2.4-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+  <name>jibx-reactor - JiBX top-level project</name>
+  <description>JiBX</description>
+
+  <modules>
+    <module>jibx-parent</module>
+    <module>core/build</module>
+    <module>plugins</module>
+    <module>web-services</module>
+    <!-- module>schema-library</module -->
+  </modules>
+
+  <scm>
+    <url>http://jibx.svn.sourceforge.net/viewvc/jibx/trunk/</url>
+    <connection>scm:svn:https://jibx.svn.sourceforge.net/svnroot/jibx/trunk/</connection>
+    <developerConnection>scm:svn:https://jibx.svn.sourceforge.net/svnroot/jibx/trunk/</developerConnection>
+  </scm>
+
+</project>
