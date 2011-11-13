@@ -1,43 +1,40 @@
-JiBX developers.
+JiBX is a tool for binding XML data to Java objects.
 
-We have a new project setup.
+This is the top-level project. The sub-projects are:
 
-Since we often must access files from another sub-repository, we need a standardized top-level
-directory structure. Here is our initial project structure. If you would like to change something,
-please feel free:
+- core - main jibx code
+- jibx-parent - maven shared project settings
+- plugins - Maven and eclipse plugins
+- web-services jibx/ws
+- schema-library - Pre-built JiBX bindings
 
-jibx (root) (git)
-- core (main jibx code - Dennis) (cvs)
-- main (core shadow project - This can be merged into core when Dennis moves from cvs) (git)
-- jibx-parent (maven shared project settings) (git)
-- plugins (All plugins will go here)
--- maven-plugin (maven-jibx-plugin directory - Don) (git)
-- web-services (All web-services projects)
--- jibxws (jibx/ws - Nigel) (svn)
--- jibxws-mvn (jibxws shadow project - will be merged into jibxws) (git)
-- schema-library (new project - Don) (git)
+To check out a sub-project, follow the github instructions.
+To check out all the projects, check out this project and use the initsubmodules script:
 
-The main project is checked into git. I'm still trying to figure out how to get sub-modules
-working correctly under git/sourceforge. You may have to manually checkout your sub-project
-in the correct location in the directory tree:
-
-Try this:
-git clone ssh://sfusername@jibx.git.sourceforge.net/gitroot/jibx/jibx
+git clone git@github.com:jibx/jibx.git
 cd jibx
 bin/git/initsubmodules.sh
-(if this doesn't work, load the submodules manually:
-cat .gitmodules
-git clone ssh://sfusername@jibx.git.sourceforge.net/gitroot/jibx/jibxws-mvn web-services/jibxws-mvn
-...etc.
 
-Manually add the non-git repos to your project:
-cvs -z3 -d:ext:sfusername@jibx.cvs.sourceforge.net:/cvsroot/jibx checkout core
+-- If you make a change to a submodule there you must sync this master project by doing this from the main(jibx) directory:
 
-cvs -z3 -d:pserver:anonymous@xbis.cvs.sourceforge.net:/cvsroot/xbis co -P web-services/xbis
+bin/git/commitall.sh "Commiting a submodule"
 
-svn co https://jibx.svn.sourceforge.net/svnroot/jibx/jibxws/trunk web-services/jibxws
+To build all the project, do the following:
 
-Next, you will need to sign up with nexus so you can deploy to maven central. Just follow these instructions:
+cd jibx-parent
+mvn install
+cd ../core/build
+ant -f build-ivy.xml
+ant
+cd maven
+mvn install
+
+cd ../../../plugins/maven-plugin/
+mvn install
+
+Developers:
+
+To deploy to maven central, you will need to sign up with nexus. Just follow these instructions:
 
 https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide
 
