@@ -4,10 +4,12 @@ git submodule update
 
 for dir in jibx-parent \
 ../core \
-../schema-library \
-../web-services \
-../sub-projects \
-../plugins; do
+../web-services/jibxws \
+../../web-services/xbis \
+../../sub-projects \
+../plugins\maven-plugin \
+../../plugins\jibx-eclipse \
+../../schema-library; do
 echo $dir
 cd $dir
 git checkout master
