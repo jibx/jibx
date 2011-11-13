@@ -3,11 +3,11 @@
 # git pull
 # git submodules update
 for dir in jibx-parent \
-../main \
+../core \
 ../schema-library \
-../web-services/jibxws-mvn \
-../../web-services/xbis-jibx-mvn \
-../../plugins/maven-plugin; do
+../web-services \
+../sub-projects \
+../plugins; do
 echo $dir
 cd $dir
 git add .

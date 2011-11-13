@@ -1,13 +1,13 @@
-# git clone ssh://jibx.git.sourceforge.net/gitroot/jibx/jibx 
+# git clone git@github.com:jibx/jibx.git
 git submodule init
 git submodule update
 
 for dir in jibx-parent \
-../main \
+../core \
 ../schema-library \
-../web-services/jibxws-mvn \
-../../web-services/xbis-jibx-mvn \
-../../plugins/maven-plugin; do
+../web-services \
+../sub-projects \
+../plugins; do
 echo $dir
 cd $dir
 git checkout master

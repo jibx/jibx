@@ -2,12 +2,12 @@
 # git submodules init
 # git submodules update
 
-for dir in core \
-../jibx-parent \
-../jibx-install-current-jars \
-../main \
+for dir in jibx-parent \
+../core \
 ../schema-library \
-../plugins/maven-plugin; do
+../web-services \
+../sub-projects \
+../plugins; do
 echo $dir
 git submodule add ssh://scm.jbundle.org/scm/git/workspace/$dir $dir
 done
