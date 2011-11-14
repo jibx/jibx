@@ -1,24 +1,24 @@
 [submodule "core"]
 	path = core
-	url = git://github.com/jibx/core.git
+	url = git@github.com:jibx/core.git
 [submodule "jibx-parent"]
 	path = jibx-parent
-	url = git://github.com/jibx/jibx-parent.git
+	url = git@github.com:jibx/jibx-parent.git
 [submodule "schema-library"]
 	path = schema-library
-	url = git://github.com/jibx/schema-library.git
+	url = git@github.com:jibx/schema-library.git
 [submodule "sub-projects"]
 	path = sub-projects
-	url = git://github.com/jibx/sub-projects.git
+	url = git@github.com:jibx/sub-projects.git
 [submodule "plugins/maven-plugin"]
 	path = plugins/maven-plugin
-	url = git://github.com/jibx/maven-plugin.git
+	url = git@github.com:jibx/maven-plugin.git
 [submodule "plugins/jibx-eclipse"]
 	path = plugins/jibx-eclipse
-	url = git://github.com/jibx/jibx-eclipse.git
+	url = git@github.com:jibx/jibx-eclipse.git
 [submodule "web-services/jibxws"]
 	path = web-services/jibxws
-	url = git://github.com/jibx/jibxws.git
+	url = git@github.com:jibx/jibxws.git
 [submodule "web-services/xbis"]
 	path = web-services/xbis
-	url = git://github.com/jibx/xbis.git
+	url = git@github.com:jibx/xbis.git
