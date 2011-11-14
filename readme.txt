@@ -15,11 +15,13 @@ git clone git@github.com:jibx/jibx.git
 cd jibx
 bin/git/initsubmodules.sh
 
+NOTE: If you want readonly access, replace line 1 with this: git clone -b readonly git://github.com/jibx/jibx.git
+
 -- If you make a change to a submodule there you must sync this master project by doing this from the main(jibx) directory:
 
 bin/git/commitall.sh "Commiting a submodule"
 
-To build all the project, do the following:
+To build all the projects, do the following:
 
 cd jibx-parent
 mvn install
