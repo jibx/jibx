@@ -1,0 +1,597 @@
+<repository lastmodified='20111230012354.480'>
+  <resource id='org.jibx.schema.org.opentravel._2011B.test.org.jibx.schema.org.opentravel._2011B.test.hotel/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.test.org.jibx.schema.org.opentravel._2011B.test.hotel' presentationname='Schema Library - opentravel.org - test-hotel' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/test/org.jibx.schema.org.opentravel._2011B.test.hotel/1.0.2/org.jibx.schema.org.opentravel._2011B.test.hotel-1.0.2.jar' version='1.0.2'>
+    <description>Opentravel.org 2011B schema library</description>
+    <size>8863</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.test.org.jibx.schema.org.opentravel._2011B.test.hotel'/>
+      <p n='presentationname' v='Schema Library - opentravel.org - test-hotel'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.test.hotel'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.schema.org.opentravel._2011B.hotel,org.joda.time,org.jibx.runtime,org.osgi.framework,org.jibx.schema.org.opentravel._2011B.base,org.jibx.schema.org.opentravel._2011B.profile'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.base;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.hotel)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.hotel;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.profile)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.profile;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.test.org.jibx.schema.org.opentravel._2011B.test.ping/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.test.org.jibx.schema.org.opentravel._2011B.test.ping' presentationname='Schema Library - opentravel.org - test-ping' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/test/org.jibx.schema.org.opentravel._2011B.test.ping/1.0.2/org.jibx.schema.org.opentravel._2011B.test.ping-1.0.2.jar' version='1.0.2'>
+    <description>Opentravel.org 2011B schema library</description>
+    <size>6462</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.test.org.jibx.schema.org.opentravel._2011B.test.ping'/>
+      <p n='presentationname' v='Schema Library - opentravel.org - test-ping'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.test.ping'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.joda.time,org.jibx.runtime,org.osgi.framework,org.jibx.schema.org.opentravel._2011B.base,org.jibx.schema.org.opentravel._2011B.ping'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.base;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.ping)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.ping;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.air/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.air' presentationname='Schema Library - org.opentravel.air - 2011B - opentravel.org air schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.air/1.0.2/org.jibx.schema.org.opentravel._2011B.air-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>636372</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.air'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.air - 2011B - opentravel.org air schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.air'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time,org.jibx.schema.org.opentravel._2011B.base.air'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.air.ws'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.schema.org.opentravel._2011B.air'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.air)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.air;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base' presentationname='Schema Library - org.opentravel.base - 2011B - opentravel.org base schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.base/1.0.2/org.jibx.schema.org.opentravel._2011B.base-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>619723</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.base - 2011B - opentravel.org base schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.base'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.joda.time,org.w3c.dom'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.air/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.air' presentationname='Schema Library - org.opentravel.base.air - 2011B - opentravel.org base air schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.base.air/1.0.2/org.jibx.schema.org.opentravel._2011B.base.air-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>619706</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.air'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.base.air - 2011B - opentravel.org base air schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.base.air'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.hotel/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.hotel' presentationname='Schema Library - org.opentravel.base.hotel - 2011B - opentravel.org base hotel schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.base.hotel/1.0.2/org.jibx.schema.org.opentravel._2011B.base.hotel-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>47023</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.hotel'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.base.hotel - 2011B - opentravel.org base hotel schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.base.hotel'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.rail/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.rail' presentationname='Schema Library - org.opentravel.base.rail - 2011B - opentravel.org rail base schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.base.rail/1.0.2/org.jibx.schema.org.opentravel._2011B.base.rail-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>230116</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.rail'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.base.rail - 2011B - opentravel.org rail base schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.base.rail'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.veh/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.veh' presentationname='Schema Library - org.opentravel.base.veh - 2011B - opentravel.org base veh schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.base.veh/1.0.2/org.jibx.schema.org.opentravel._2011B.base.veh-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>370883</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.base.veh'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.base.veh - 2011B - opentravel.org base veh schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.base.veh'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.codetable/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.codetable' presentationname='Schema Library - org.opentravel.codetable - 2011B - opentravel.org codetable schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.codetable/1.0.2/org.jibx.schema.org.opentravel._2011B.codetable-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>23543</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.codetable'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.codetable - 2011B - opentravel.org codetable schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.codetable'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.cruise/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.cruise' presentationname='Schema Library - org.opentravel.cruise - 2011B - opentravel.org cruise schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.cruise/1.0.2/org.jibx.schema.org.opentravel._2011B.cruise-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>483918</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.cruise'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.cruise - 2011B - opentravel.org cruise schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.cruise'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.destactivity/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.destactivity' presentationname='Schema Library - org.opentravel.destactivity - 2011B - opentravel.org destactivity schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.destactivity/1.0.2/org.jibx.schema.org.opentravel._2011B.destactivity-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>60727</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.destactivity'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.destactivity - 2011B - opentravel.org destactivity schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.destactivity'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time,org.jibx.schema.org.opentravel._2011B.profile'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.profile)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.profile;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.dynamicpkg/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.dynamicpkg' presentationname='Schema Library - org.opentravel.dynamicpkg - 2011B - opentravel.org dynamicpkg schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.dynamicpkg/1.0.2/org.jibx.schema.org.opentravel._2011B.dynamicpkg-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>197828</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.dynamicpkg'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.dynamicpkg - 2011B - opentravel.org dynamicpkg schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.dynamicpkg'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base.air,org.joda.time,org.jibx.schema.org.opentravel._2011B.base,org.jibx.schema.org.opentravel._2011B.base.veh,org.jibx.schema.org.opentravel._2011B.hotel'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.air)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.air;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.veh)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.veh;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.hotel)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.hotel;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.fastrez/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.fastrez' presentationname='Schema Library - org.opentravel.fastrez - 2011B - opentravel.org fastrez schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.fastrez/1.0.2/org.jibx.schema.org.opentravel._2011B.fastrez-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>169707</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.fastrez'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.fastrez - 2011B - opentravel.org fastrez schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.fastrez'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.golf/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.golf' presentationname='Schema Library - org.opentravel.golf - 2011B - opentravel.org golf schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.golf/1.0.2/org.jibx.schema.org.opentravel._2011B.golf-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>223409</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.golf'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.golf - 2011B - opentravel.org golf schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.golf'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.ground/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.ground' presentationname='Schema Library - org.opentravel.ground - 2011B - opentravel.org ground schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.ground/1.0.2/org.jibx.schema.org.opentravel._2011B.ground-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>529127</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.ground'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.ground - 2011B - opentravel.org ground schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.ground'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.hotel/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.hotel' presentationname='Schema Library - org.opentravel.hotel - 2011B - opentravel.org hotel schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.hotel/1.0.2/org.jibx.schema.org.opentravel._2011B.hotel-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>2087104</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.hotel'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.hotel - 2011B - opentravel.org hotel schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.hotel'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time,org.jibx.schema.org.opentravel._2011B.profile,org.jibx.schema.org.opentravel._2011B.base.hotel'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.hotel)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.hotel;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.profile)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.profile;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.insurance/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.insurance' presentationname='Schema Library - org.opentravel.insurance - 2011B - opentravel.org insurance schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.insurance/1.0.2/org.jibx.schema.org.opentravel._2011B.insurance-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>114601</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.insurance'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.insurance - 2011B - opentravel.org insurance schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.insurance'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time,org.jibx.schema.org.opentravel._2011B.profile'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.profile)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.profile;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.loyalty/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.loyalty' presentationname='Schema Library - org.opentravel.loyalty - 2011B - opentravel.org loyalty schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.loyalty/1.0.2/org.jibx.schema.org.opentravel._2011B.loyalty-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>287290</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.loyalty'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.loyalty - 2011B - opentravel.org loyalty schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.loyalty'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time,org.jibx.schema.org.opentravel._2011B.base.veh,org.jibx.schema.org.opentravel._2011B.hotel,org.jibx.schema.org.opentravel._2011B.base.rail,org.jibx.schema.org.opentravel._2011B.base.air'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.air)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.air;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.rail)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.rail;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.veh)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.veh;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.hotel)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.hotel;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.misc/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.misc' presentationname='Schema Library - org.opentravel.misc - 2011B - opentravel.org misc schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.misc/1.0.2/org.jibx.schema.org.opentravel._2011B.misc-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>2649018</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.misc'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.misc - 2011B - opentravel.org misc schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.misc'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.ping/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.ping' presentationname='Schema Library - org.opentravel.ping - 2011B - opentravel.org ping schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.ping/1.0.2/org.jibx.schema.org.opentravel._2011B.ping-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>19325</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.ping'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.ping - 2011B - opentravel.org ping schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.ping'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.pkg/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.pkg' presentationname='Schema Library - org.opentravel.pkg - 2011B - opentravel.org pkg schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.pkg/1.0.2/org.jibx.schema.org.opentravel._2011B.pkg-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>311235</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.pkg'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.pkg - 2011B - opentravel.org pkg schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.pkg'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time,org.jibx.schema.org.opentravel._2011B.base.veh,org.jibx.schema.org.opentravel._2011B.hotel,org.jibx.schema.org.opentravel._2011B.base.air'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.air)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.air;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.veh)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.veh;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.hotel)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.hotel;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.profile/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.profile' presentationname='Schema Library - org.opentravel.profile - 2011B - opentravel.org profile schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.profile/1.0.2/org.jibx.schema.org.opentravel._2011B.profile-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>127872</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.profile'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.profile - 2011B - opentravel.org profile schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.profile'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.joda.time,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.jibx.schema.org.opentravel._2011B.base.rail,org.jibx.schema.org.opentravel._2011B.base.hotel,org.jibx.schema.org.opentravel._2011B.base.veh,org.jibx.schema.org.opentravel._2011B.base.air'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.air)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.air;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.hotel)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.hotel;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.rail)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.rail;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.veh)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.veh;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.rail/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.rail' presentationname='Schema Library - org.opentravel.rail - 2011B - opentravel.org rail schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.rail/1.0.2/org.jibx.schema.org.opentravel._2011B.rail-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>841181</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.rail'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.rail - 2011B - opentravel.org rail schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.rail'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.schema.org.opentravel._2011B.base.rail,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.rail)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.rail;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.screen/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.screen' presentationname='Schema Library - org.opentravel.screen - 2011B - opentravel.org screen schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.screen/1.0.2/org.jibx.schema.org.opentravel._2011B.screen-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>23675</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.screen'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.screen - 2011B - opentravel.org screen schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.screen'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.tour/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.tour' presentationname='Schema Library - org.opentravel.tour - 2011B - opentravel.org tour schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.tour/1.0.2/org.jibx.schema.org.opentravel._2011B.tour-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>542353</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.tour'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.tour - 2011B - opentravel.org tour schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.tour'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.travelitinerary/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.travelitinerary' presentationname='Schema Library - org.opentravel.travelitinerary - 2011B - opentravel.org travelitinerary schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.travelitinerary/1.0.2/org.jibx.schema.org.opentravel._2011B.travelitinerary-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>254301</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.travelitinerary'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.travelitinerary - 2011B - opentravel.org travelitinerary schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.travelitinerary'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.jibx.schema.org.opentravel._2011B.base.air,org.jibx.schema.org.opentravel._2011B.profile,org.jibx.schema.org.opentravel._2011B.hotel,org.jibx.schema.org.opentravel._2011B.base.veh'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.air)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.air;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base.veh)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base.veh;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.hotel)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.hotel;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.profile)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.profile;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.veh/1.0.2' symbolicname='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.veh' presentationname='Schema Library - org.opentravel.veh - 2011B - opentravel.org veh schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2011B/org.jibx.schema.org.opentravel._2011B.veh/1.0.2/org.jibx.schema.org.opentravel._2011B.veh-1.0.2.jar' version='1.0.2'>
+    <description>JiBX schema - Opentravel OSGI Packaging project</description>
+    <size>785053</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.org.opentravel._2011B.org.jibx.schema.org.opentravel._2011B.veh'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.veh - 2011B - opentravel.org veh schema'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.org.opentravel._2011B.veh'/>
+      <p n='version' t='version' v='1.0.2'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl,org.jibx.schema.org.opentravel._2011B.base,org.joda.time'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2011B.base;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+</repository>
