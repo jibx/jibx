@@ -2,6 +2,7 @@ target
 .settings
 .project
 .classpath
+.attach*
 *~
 .metadata
 *.releaseBackup
