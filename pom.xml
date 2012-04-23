@@ -12,10 +12,10 @@
 
   <modules>
     <module>jibx-parent</module>
-    <module>core/build</module>
+    <module>core</module>
     <module>plugins</module>
     <module>web-services</module>
-    <!-- module>schema-library</module -->
+    <module>schema-library</module>
   </modules>
 
   <scm>
