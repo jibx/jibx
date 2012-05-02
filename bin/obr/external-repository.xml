@@ -1,0 +1,48 @@
+<repository lastmodified='20120424072820.718'>
+  <resource id='joda-time/2.1.0' presentationname='Joda-Time' symbolicname='joda-time' uri='http://repo2.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.jar' version='2.1.0'>
+    <size>
+      570478
+    </size>
+    <license>
+      jar:http://repo2.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.jar!/Apache
+       2.0
+    </license>
+    <documentation>
+      http://joda-time.sourceforge.net/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Joda-Time'/>
+      <p n='symbolicname' v='joda-time'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.base'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.chrono'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.convert'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.field'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.format'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.tz'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+  </resource>
+</repository>

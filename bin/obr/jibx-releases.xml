@@ -4355,7 +4355,7 @@
   </resource>
   <resource id='jibx-bind/1.2.4' symbolicname='jibx-bind' presentationname='jibx-bind - JiBX binding' uri='http://repo2.maven.org/maven2/org/jibx/jibx-bind/1.2.4/jibx-bind-1.2.4.jar' version='1.2.4'>
     <description>JiBX binding code</description>
-    <size>444210</size>
+    <size>444211</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -4416,7 +4416,7 @@
   </resource>
   <resource id='jibx-extras/1.2.4' symbolicname='jibx-extras' presentationname='jibx-extras - JiBX extras' uri='http://repo2.maven.org/maven2/org/jibx/jibx-extras/1.2.4/jibx-extras-1.2.4.jar' version='1.2.4'>
     <description>JiBX extras code</description>
-    <size>52039</size>
+    <size>52038</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -4440,7 +4440,7 @@
   </resource>
   <resource id='jibx-run/1.2.4' symbolicname='jibx-run' presentationname='jibx-run - JiBX runtime' uri='http://repo2.maven.org/maven2/org/jibx/jibx-run/1.2.4/jibx-run-1.2.4.jar' version='1.2.4'>
     <description>JiBX runtime code</description>
-    <size>139854</size>
+    <size>139853</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -4465,7 +4465,7 @@
   </resource>
   <resource id='jibx-schema/1.2.4' symbolicname='jibx-schema' presentationname='jibx-schema - JiBX schema' uri='http://repo2.maven.org/maven2/org/jibx/jibx-schema/1.2.4/jibx-schema-1.2.4.jar' version='1.2.4'>
     <description>JiBX schema code</description>
-    <size>279589</size>
+    <size>279591</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -4516,7 +4516,7 @@
   </resource>
   <resource id='jibx-tools/1.2.4' symbolicname='jibx-tools' presentationname='jibx-tools - JiBX tools' uri='http://repo2.maven.org/maven2/org/jibx/jibx-tools/1.2.4/jibx-tools-1.2.4.jar' version='1.2.4'>
     <description>JiBX tools code</description>
-    <size>480256</size>
+    <size>480255</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -4613,7 +4613,7 @@
   </resource>
   <resource id='org.jibx.schema.address/1.2.4' symbolicname='org.jibx.schema.address' presentationname='webschema-address' uri='http://repo2.maven.org/maven2/org/jibx/test/webschema/org.jibx.schema.address/1.2.4/org.jibx.schema.address-1.2.4.jar' version='1.2.4'>
     <description>JiBX parent shared settings</description>
-    <size>7873</size>
+    <size>7872</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -4628,7 +4628,7 @@
   </resource>
   <resource id='org.jibx.schema.company/1.2.4' symbolicname='org.jibx.schema.company' presentationname='webschema-company' uri='http://repo2.maven.org/maven2/org/jibx/test/webschema/org.jibx.schema.company/1.2.4/org.jibx.schema.company-1.2.4.jar' version='1.2.4'>
     <description>JiBX parent shared settings</description>
-    <size>7926</size>
+    <size>7928</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>

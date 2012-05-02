@@ -105,25 +105,56 @@ cd build
 # Edit the build.xml and set the correct release version
 ant -f build-ivy.xml
 ant
+cd ..
+mv jibx_x_x_x.zip lib/
 # Edit build.xml and set the next snapshot version
-# Upload core/lib/jibx-x.x.x.zip to sourceforge.
-cd ../../jibx-parent
+############## Upload core/lib/jibx_x_x_x.zip to sourceforge.
+cd ../jibx-parent
 # Edit the jibx-parent file and change any <jibx-xxx> properties to point to the next release version
 # Push all changes to the git repository
 mvn release:prepare
 mvn release:perform
+mvn install
 cd ../core
 mvn release:prepare
 mvn release:perform
-# Now you must remove the fake source directories that were added so maven would have jibx source
+# Now you should remove the fake source directories that were added so maven could upload jibx source
 rm -fr build/maven/jibx-run/src
 rm -fr build/maven/jibx-tools/src
 rm -fr build/maven/jibx-bind/src
 rm -fr build/maven/jibx-schema/src
 rm -fr build/maven/jibx-extras/src
-cd ../plugins
+mvn install
+# Now for the plugin
+cd ../plugins/maven-plugin
 mvn release:prepare
 mvn release:perform
+mvn install
+cd target/checkout/jibx-maven-plugin
+ssh -t doncorley,jibx@shell.sourceforge.net create
+mvn site site:deploy
+ssh doncorley,jibx@shell.sourceforge.net
+ssh -t doncorley,jibx@shell.sourceforge.net create
+rm -fr maven-jibx-plugin
+cp -r jibx-maven-plugin maven-jibx-plugin
+cd ../../..
+cd ../schema-library
+mvn release:prepare
+mvn release:perform
+mvn install
+cd target/checkout/schema-utilities/site
+mvn site site:deploy
+
+
+
+
+
+rm org.opentravel/_2010B/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
+rm org.opentravel/_2011B/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
+rm org.opentravel/_2011A/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
+
+
+
 
 To deploy a snapshot, just enter your project directory and type:
 mvn deploy
