@@ -4655,4 +4655,50 @@
     <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
     <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
   </resource>
+  <resource id='joda-time/2.1.0' presentationname='Joda-Time' symbolicname='joda-time' uri='http://repo2.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.jar' version='2.1.0'>
+    <size>
+      570478
+    </size>
+    <license>
+      jar:http://repo2.maven.org/maven2/joda-time/joda-time/2.1/joda-time-2.1.jar!/Apache
+       2.0
+    </license>
+    <documentation>
+      http://joda-time.sourceforge.net/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Joda-Time'/>
+      <p n='symbolicname' v='joda-time'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.base'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.chrono'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.convert'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.field'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.format'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.joda.time.tz'/>
+      <p n='version' t='version' v='2.1.0'/>
+    </capability>
+  </resource>
 </repository>
