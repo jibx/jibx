@@ -99,7 +99,7 @@ For jibx, you will need to make some changes to your ~/.m2/settings.xml file:
 ----------------------------------------------------------------------
 # A release is similar to a install, follow these steps:
 # Make sure all dependencies are up-to-date
-cd core
+cd ../core
 rm lib/*.jar
 rm lib/*.zip
 cd build
@@ -111,6 +111,7 @@ mv jibx_x_x_x.zip lib/
 # Edit build.xml and set the next snapshot version
 ############## Upload core/lib/jibx_x_x_x.zip to sourceforge.
 cd ..
+# --NOTE---- Fix the obr location(s) ------------------
 # Edit the jibx-parent file and change any <jibx-xxx> properties to point to the next release version
 # Push all changes to the git repository
 cd jibx-parent
