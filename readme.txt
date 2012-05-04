@@ -96,6 +96,7 @@ For jibx, you will need to make some changes to your ~/.m2/settings.xml file:
     </profile>
   </profiles>
   
+----------------------------------------------------------------------
 # A release is similar to a install, follow these steps:
 # Make sure all dependencies are up-to-date
 cd core
@@ -109,12 +110,14 @@ cd ..
 mv jibx_x_x_x.zip lib/
 # Edit build.xml and set the next snapshot version
 ############## Upload core/lib/jibx_x_x_x.zip to sourceforge.
-cd ../jibx-parent
+cd ..
 # Edit the jibx-parent file and change any <jibx-xxx> properties to point to the next release version
 # Push all changes to the git repository
+cd jibx-parent
 mvn release:prepare
 mvn release:perform
 mvn install
+# Edit the jibx-parent file and change any <jibx-xxx> properties to point to the next snapshot version
 cd ../core
 mvn release:prepare
 mvn release:perform
@@ -131,30 +134,26 @@ mvn release:prepare
 mvn release:perform
 mvn install
 cd target/checkout/jibx-maven-plugin
-ssh -t doncorley,jibx@shell.sourceforge.net create
+#ssh -t doncorley,jibx@shell.sourceforge.net create
 mvn site site:deploy
-ssh doncorley,jibx@shell.sourceforge.net
-ssh -t doncorley,jibx@shell.sourceforge.net create
-rm -fr maven-jibx-plugin
-cp -r jibx-maven-plugin maven-jibx-plugin
-cd ../../..
-cd ../schema-library
+#-----
+#ssh doncorley,jibx@shell.sourceforge.net
+#ssh -t doncorley,jibx@shell.sourceforge.net create
+#rm -fr maven-jibx-plugin
+#cp -r jibx-maven-plugin maven-jibx-plugin
+#----
+cd ../../schema-library
+# Edit archetype pom file to reflect the release version
 mvn release:prepare
 mvn release:perform
 mvn install
 cd target/checkout/schema-utilities/site
 mvn site site:deploy
-
-
-
-
-
 rm org.opentravel/_2010B/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
 rm org.opentravel/_2011B/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
 rm org.opentravel/_2011A/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
 
-
-
+----------------------------------------------------------------------
 
 To deploy a snapshot, just enter your project directory and type:
 mvn deploy
