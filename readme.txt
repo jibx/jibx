@@ -113,6 +113,7 @@ mv jibx_x_x_x.zip lib/
 cd ..
 # --NOTE---- Fix the obr location(s) ------------------
 # Edit the jibx-parent file and change any <jibx-xxx> properties to point to the next release version
+# Change any external parent references to the release version
 # Push all changes to the git repository
 cd jibx-parent
 mvn release:prepare
