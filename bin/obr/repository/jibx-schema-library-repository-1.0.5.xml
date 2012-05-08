@@ -1,0 +1,21 @@
+<repository lastmodified='20120503060643.237'>
+  <resource id='org.jibx.schema.net.java.jnlp_6_0/1.0.5' symbolicname='org.jibx.schema.net.java.jnlp_6_0' presentationname='Schema Library - java.net - jnlp - 6_0' uri='http://repo2.maven.org/maven2/org/jibx/schema/net/java/org.jibx.schema.net.java.jnlp_6_0/1.0.5/org.jibx.schema.net.java.jnlp_6_0-1.0.5.jar' version='1.0.5'>
+    <description>java.net/jnlp-6_0.xsd</description>
+    <size>112779</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.net.java.jnlp_6_0'/>
+      <p n='presentationname' v='Schema Library - java.net - jnlp - 6_0'/>
+      <p n='version' t='version' v='1.0.5'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.net.java.jnlp_6_0'/>
+      <p n='version' t='version' v='1.0.5'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+  </resource>
+</repository>
