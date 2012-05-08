@@ -14,7 +14,7 @@
     <module>jibx-parent</module>
     <module>core</module>
     <module>plugins</module>
-    <module>web-services</module>
+    <!-- module>web-services</module -->
     <module>schema-library</module>
   </modules>
 
