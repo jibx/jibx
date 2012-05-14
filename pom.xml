@@ -4,7 +4,7 @@
 
   <groupId>org.jibx.config</groupId>
   <artifactId>jibx-reactor</artifactId>
-  <version>1.2.5-SNAPSHOT</version>
+  <version>1.2.4.1-SNAPSHOT</version>
 
   <packaging>pom</packaging>
   <name>jibx-reactor - JiBX top-level project</name>
