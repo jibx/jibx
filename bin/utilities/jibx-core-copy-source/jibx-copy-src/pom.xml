@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.jibx.config</groupId>
     <artifactId>jibx-parent</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>5</version>
     <relativePath>../../../../jibx-parent</relativePath>
   </parent>
 
   <artifactId>jibx-copy-src</artifactId>
-  <version>1.2.4.1-SNAPSHOT</version>
+  <version>1.2.4.5-SNAPSHOT</version>
   
   <packaging>pom</packaging>
   <name>jibx-copy-src - Copy source code ***TEMPORARY***</name>

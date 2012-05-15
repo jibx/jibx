@@ -120,6 +120,10 @@ mvn release:prepare
 mvn release:perform
 # Edit the jibx-parent file and change any <jibx-xxx> properties to point to the next snapshot version
 cd ../core
+mvn versions:update-parent
+mvn versions:commit
+git commit -am "Preparing for release"
+git push
 mvn release:prepare
 mvn release:perform
 # Now you should remove the fake source directories that were added so maven could upload jibx source
@@ -128,9 +132,13 @@ rm -fr build/maven/jibx-tools/src
 rm -fr build/maven/jibx-bind/src
 rm -fr build/maven/jibx-schema/src
 rm -fr build/maven/jibx-extras/src
-mvn install
+# Wait for release to sync
 # Now for the plugin
 cd ../plugins/maven-plugin
+mvn versions:update-parent
+mvn versions:commit
+git commit -am "Preparing for release"
+git push
 mvn release:prepare
 mvn release:perform
 mvn install
@@ -145,9 +153,12 @@ mvn site site:deploy
 #----
 cd ../../schema-library
 # Edit archetype pom file to reflect the release version
+mvn versions:update-parent
+mvn versions:commit
+git commit -am "Preparing for release"
+git push
 mvn release:prepare
 mvn release:perform
-mvn install
 cd target/checkout/schema-utilities/site
 mvn site site:deploy
 rm org.opentravel/_2010B/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd

@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jibx.config</groupId>
     <artifactId>jibx-parent</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>5</version>
     <relativePath>../jibx-parent</relativePath>
   </parent>
 
