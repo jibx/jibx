@@ -1,7 +1,7 @@
-<repository lastmodified='20120514071825.579'>
+<repository lastmodified='20120515084443.239'>
   <resource id='jibx-bind/1.2.4.1' symbolicname='jibx-bind' presentationname='jibx-bind - JiBX binding' uri='http://repo2.maven.org/maven2/org/jibx/jibx-bind/1.2.4.1/jibx-bind-1.2.4.1.jar' version='1.2.4.1'>
     <description>JiBX binding code</description>
-    <size>444237</size>
+    <size>444238</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -62,7 +62,7 @@
   </resource>
   <resource id='jibx-extras/1.2.4.1' symbolicname='jibx-extras' presentationname='jibx-extras - JiBX extras' uri='http://repo2.maven.org/maven2/org/jibx/jibx-extras/1.2.4.1/jibx-extras-1.2.4.1.jar' version='1.2.4.1'>
     <description>JiBX extras code</description>
-    <size>52023</size>
+    <size>52021</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -86,7 +86,7 @@
   </resource>
   <resource id='jibx-run/1.2.4.1' symbolicname='jibx-run' presentationname='jibx-run - JiBX runtime' uri='http://repo2.maven.org/maven2/org/jibx/jibx-run/1.2.4.1/jibx-run-1.2.4.1.jar' version='1.2.4.1'>
     <description>JiBX runtime code</description>
-    <size>139836</size>
+    <size>139837</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -111,7 +111,7 @@
   </resource>
   <resource id='jibx-schema/1.2.4.1' symbolicname='jibx-schema' presentationname='jibx-schema - JiBX schema' uri='http://repo2.maven.org/maven2/org/jibx/jibx-schema/1.2.4.1/jibx-schema-1.2.4.1.jar' version='1.2.4.1'>
     <description>JiBX schema code</description>
-    <size>279588</size>
+    <size>279589</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -162,7 +162,7 @@
   </resource>
   <resource id='jibx-tools/1.2.4.1' symbolicname='jibx-tools' presentationname='jibx-tools - JiBX tools' uri='http://repo2.maven.org/maven2/org/jibx/jibx-tools/1.2.4.1/jibx-tools-1.2.4.1.jar' version='1.2.4.1'>
     <description>JiBX tools code</description>
-    <size>480299</size>
+    <size>480298</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -256,5 +256,49 @@
     <require name='package' filter='(&amp;(package=org.jibx.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.util;resolution:=optional;version="[1.2,2)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.xmlpull.v1))' extend='false' multiple='false' optional='true'>Import package org.xmlpull.v1;resolution:=optional</require>
+  </resource>
+  <resource id='org.jibx.schema.address/1.2.4.1' symbolicname='org.jibx.schema.address' presentationname='webschema-address' uri='http://repo2.maven.org/maven2/org/jibx/test/webschema/org.jibx.schema.address/1.2.4.1/org.jibx.schema.address-1.2.4.1.jar' version='1.2.4.1'>
+    <description>JiBX parent shared settings</description>
+    <size>7863</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.address'/>
+      <p n='presentationname' v='webschema-address'/>
+      <p n='version' t='version' v='1.2.4.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.sampleschema.person))' extend='false' multiple='false' optional='true'>Import package org.jibx.sampleschema.person;resolution:=optional</require>
+  </resource>
+  <resource id='org.jibx.schema.company/1.2.4.1' symbolicname='org.jibx.schema.company' presentationname='webschema-company' uri='http://repo2.maven.org/maven2/org/jibx/test/webschema/org.jibx.schema.company/1.2.4.1/org.jibx.schema.company-1.2.4.1.jar' version='1.2.4.1'>
+    <description>JiBX parent shared settings</description>
+    <size>7915</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.company'/>
+      <p n='presentationname' v='webschema-company'/>
+      <p n='version' t='version' v='1.2.4.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.sampleschema.address))' extend='false' multiple='false' optional='true'>Import package org.jibx.sampleschema.address;resolution:=optional</require>
+  </resource>
+  <resource id='org.jibx.schema.person/1.2.4.1' symbolicname='org.jibx.schema.person' presentationname='webschema-person' uri='http://repo2.maven.org/maven2/org/jibx/test/webschema/org.jibx.schema.person/1.2.4.1/org.jibx.schema.person-1.2.4.1.jar' version='1.2.4.1'>
+    <description>JiBX parent shared settings</description>
+    <size>6844</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.person'/>
+      <p n='presentationname' v='webschema-person'/>
+      <p n='version' t='version' v='1.2.4.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
   </resource>
 </repository>

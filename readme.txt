@@ -118,7 +118,6 @@ cd ..
 cd jibx-parent
 mvn release:prepare
 mvn release:perform
-mvn install
 # Edit the jibx-parent file and change any <jibx-xxx> properties to point to the next snapshot version
 cd ../core
 mvn release:prepare
