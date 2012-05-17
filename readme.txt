@@ -136,18 +136,19 @@ rm -fr build/maven/jibx-extras/src
 # Now for the plugin
 cd ../plugins/maven-plugin
 mvn versions:update-parent
+mvn versions:use-releases
 mvn versions:commit
 git commit -am "Preparing for release"
 git push
 mvn release:prepare
 mvn release:perform
-mvn install
 cd target/checkout/jibx-maven-plugin
 #ssh -t doncorley,jibx@shell.sourceforge.net create
 mvn site site:deploy
 #-----
 #ssh doncorley,jibx@shell.sourceforge.net
 #ssh -t doncorley,jibx@shell.sourceforge.net create
+#cd /home/project-web/jibx/htdocs/
 #rm -fr maven-jibx-plugin
 #cp -r jibx-maven-plugin maven-jibx-plugin
 #----
