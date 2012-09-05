@@ -5,12 +5,13 @@
   <parent>
     <groupId>org.jibx.config</groupId>
     <artifactId>jibx-parent</artifactId>
-    <version>1.2.5-SNAPSHOT</version>
+    <version>7-SNAPSHOT</version>
     <relativePath>../../jibx-parent</relativePath>
   </parent>
 
   <groupId>org.jibx</groupId>
   <artifactId>jibx-run</artifactId>
+  <version>1.2.5-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <name>jibx-run - JiBX runtime</name>
