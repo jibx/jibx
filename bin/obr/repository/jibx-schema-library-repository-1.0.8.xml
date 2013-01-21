@@ -1,4 +1,4 @@
-<repository lastmodified='20121125125823.211'>
+<repository lastmodified='20121207121119.250'>
   <resource id='org.jibx.schema.org.opentravel._2012A.touractivity.ws.service/1.0.8' symbolicname='org.jibx.schema.org.opentravel._2012A.touractivity.ws.service' presentationname='opentravel-touractivity-ws-service' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2012A/ws/org.jibx.schema.org.opentravel._2012A.touractivity.ws.service/1.0.8/org.jibx.schema.org.opentravel._2012A.touractivity.ws.service-1.0.8.jar' version='1.0.8'>
     <description>JiBX opentravel touractivity web service implementation</description>
     <size>10558</size>
@@ -25,6 +25,25 @@
     <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2012A.touractivity.ws)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2012A.touractivity.ws;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2012A.touractivity.ws.impl)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2012A.touractivity.ws.impl;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.blueprint;resolution:=optional;version="[1.0.0,2.0.0)"</require>
+  </resource>
+  <resource id='org.jibx.schema.net.java.jnlp_6_0/1.0.8' symbolicname='org.jibx.schema.net.java.jnlp_6_0' presentationname='Schema Library - java.net - jnlp - 6_0' uri='http://repo2.maven.org/maven2/org/jibx/schema/net/java/org.jibx.schema.net.java.jnlp_6_0/1.0.8/org.jibx.schema.net.java.jnlp_6_0-1.0.8.jar' version='1.0.8'>
+    <description>java.net/jnlp-6_0.xsd</description>
+    <size>113840</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.net.java.jnlp_6_0'/>
+      <p n='presentationname' v='Schema Library - java.net - jnlp - 6_0'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.net.java.jnlp_6_0'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
   </resource>
   <resource id='org.jibx.schema.org.apache.maven.maven_v3_0_0/1.0.8' symbolicname='org.jibx.schema.org.apache.maven.maven_v3_0_0' presentationname='Schema Library - maven.apache.org - v3_0_0' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/apache/maven/org.jibx.schema.org.apache.maven.maven_v3_0_0/1.0.8/org.jibx.schema.org.apache.maven.maven_v3_0_0-1.0.8.jar' version='1.0.8'>
     <description>maven.apache.org/maven-v3_0_0.xsd</description>
@@ -206,6 +225,28 @@
     <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2012A.hotel.ws.impl)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2012A.hotel.ws.impl;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jibx.schema.ws.utilities.client)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.ws.utilities.client;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.blueprint;resolution:=optional;version="[1.0.0,2.0.0)"</require>
+  </resource>
+  <resource id='org.jibx.schema.ws.base.rest.client/1.0.8' symbolicname='org.jibx.schema.ws.base.rest.client' presentationname='Schema Library - org.jibx.ws.base.rest.client - opentravel.org base RESTful web client' uri='http://repo2.maven.org/maven2/org/jibx/schema/ws/org.jibx.schema.ws.base.rest.client/1.0.8/org.jibx.schema.ws.base.rest.client-1.0.8.jar' version='1.0.8'>
+    <description>JiBX schema - schema-utilities parent</description>
+    <size>5813</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.ws.base.rest.client'/>
+      <p n='presentationname' v='Schema Library - org.jibx.ws.base.rest.client - opentravel.org base RESTful web client'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='bundle' filter='(&amp;(symbolicname=org.apache.cxf.bundle))' extend='false' multiple='false' optional='false'>Require Bundle org.apache.cxf.bundle; 0</require>
+    <require name='package' filter='(&amp;(package=org.apache.http))' extend='false' multiple='false' optional='true'>Import package org.apache.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.methods))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.methods;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.entity.mime))' extend='false' multiple='false' optional='true'>Import package org.apache.http.entity.mime;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.entity.mime.content))' extend='false' multiple='false' optional='true'>Import package org.apache.http.entity.mime.content;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.client))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.client;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.ws.utilities)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.ws.utilities;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.ws.utilities.client)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.ws.utilities.client;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
   <resource id='org.jibx.schema.org.opentravel._2012A.air/1.0.8' symbolicname='org.jibx.schema.org.opentravel._2012A.air' presentationname='Schema Library - org.opentravel.air - 2012A - opentravel.org air schema' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/opentravel/_2012A/org.jibx.schema.org.opentravel._2012A.air/1.0.8/org.jibx.schema.org.opentravel._2012A.air-1.0.8.jar' version='1.0.8'>
     <description>JiBX schema - Opentravel OSGI Packaging project</description>
@@ -1395,6 +1436,42 @@
     <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2012A.base.ws)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jibx.schema.org.opentravel._2012A.base.ws;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[2.1,3)"</require>
   </resource>
+  <resource id='org.jibx.schema.ws.utilities/1.0.8' symbolicname='org.jibx.schema.ws.utilities' presentationname='Schema Library - org.opentravel.ws.client.test - opentravel.org utilities' uri='http://repo2.maven.org/maven2/org/jibx/schema/ws/org.jibx.schema.ws.utilities/1.0.8/org.jibx.schema.ws.utilities-1.0.8.jar' version='1.0.8'>
+    <description>JiBX schema - schema-utilities parent</description>
+    <size>12881</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.ws.utilities'/>
+      <p n='presentationname' v='Schema Library - org.opentravel.ws.client.test - opentravel.org utilities'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.ws.utilities.client'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='uses:' v='org.jibx.schema.ws.utilities,javax.xml.transform,javax.xml.transform.stream,org.osgi.framework,javax.xml.transform.dom,javax.xml.soap,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.ws.utilities'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='uses:' v='javax.xml.namespace,org.jdom.output,javax.xml.parsers,org.jibx.extras,javax.xml.transform.dom,org.w3c.dom,org.xml.sax,javax.xml.xpath,org.jibx.runtime,javax.xml.transform,org.jdom,javax.xml.transform.stream'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.soap))' extend='false' multiple='false' optional='true'>Import package javax.xml.soap;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.xpath))' extend='false' multiple='false' optional='true'>Import package javax.xml.xpath;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jdom))' extend='false' multiple='false' optional='true'>Import package org.jdom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jdom.output))' extend='false' multiple='false' optional='true'>Import package org.jdom.output;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jibx.extras)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.extras;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+  </resource>
   <resource id='org.jibx.schema.org.w3._2001._06.soap_encoding/1.0.8' symbolicname='org.jibx.schema.org.w3._2001._06.soap_encoding' presentationname='Schema Library - w3.org - _2001._06.soap_encoding' uri='http://repo2.maven.org/maven2/org/jibx/schema/org/w3/org.jibx.schema.org.w3._2001._06.soap_encoding/1.0.8/org.jibx.schema.org.w3._2001._06.soap_encoding-1.0.8.jar' version='1.0.8'>
     <description>www.w3.org/2001/06/soap-encoding.xsd</description>
     <size>151826</size>
@@ -1826,62 +1903,42 @@
     <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jibx.schema.ws.base.rest.client/1.0.8' symbolicname='org.jibx.schema.ws.base.rest.client' presentationname='Schema Library - org.jibx.ws.base.rest.client - opentravel.org base RESTful web client' uri='http://repo2.maven.org/maven2/org/jibx/schema/ws/org.jibx.schema.ws.base.rest.client/1.0.8/org.jibx.schema.ws.base.rest.client-1.0.8.jar' version='1.0.8'>
-    <description>JiBX schema - schema-utilities parent</description>
-    <size>5813</size>
+  <resource id='org.jibx.schema.net.webservicex.currencyconvertor/1.0.8' symbolicname='org.jibx.schema.net.webservicex.currencyconvertor' presentationname='Schema Library - webservicex.net - currencyconverter' uri='http://repo2.maven.org/maven2/org/jibx/schema/net/webservicex/org.jibx.schema.net.webservicex.currencyconvertor/1.0.8/org.jibx.schema.net.webservicex.currencyconvertor-1.0.8.jar' version='1.0.8'>
+    <description>schema library parent shared settings</description>
+    <size>17489</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
-      <p n='symbolicname' v='org.jibx.schema.ws.base.rest.client'/>
-      <p n='presentationname' v='Schema Library - org.jibx.ws.base.rest.client - opentravel.org base RESTful web client'/>
-      <p n='version' t='version' v='1.0.8'/>
-      <p n='manifestversion' v='2'/>
-    </capability>
-    <require name='bundle' filter='(&amp;(symbolicname=org.apache.cxf.bundle))' extend='false' multiple='false' optional='false'>Require Bundle org.apache.cxf.bundle; 0</require>
-    <require name='package' filter='(&amp;(package=org.apache.http))' extend='false' multiple='false' optional='true'>Import package org.apache.http;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.apache.http.client))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.apache.http.client.methods))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.methods;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.apache.http.entity.mime))' extend='false' multiple='false' optional='true'>Import package org.apache.http.entity.mime;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.apache.http.entity.mime.content))' extend='false' multiple='false' optional='true'>Import package org.apache.http.entity.mime.content;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.apache.http.impl.client))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.client;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.jibx.schema.ws.utilities)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.ws.utilities;resolution:=optional;version="[1.0,2)"</require>
-    <require name='package' filter='(&amp;(package=org.jibx.schema.ws.utilities.client)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.ws.utilities.client;resolution:=optional;version="[1.0,2)"</require>
-    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
-  </resource>
-  <resource id='org.jibx.schema.ws.utilities/1.0.8' symbolicname='org.jibx.schema.ws.utilities' presentationname='Schema Library - org.opentravel.ws.client.test - opentravel.org utilities' uri='http://repo2.maven.org/maven2/org/jibx/schema/ws/org.jibx.schema.ws.utilities/1.0.8/org.jibx.schema.ws.utilities-1.0.8.jar' version='1.0.8'>
-    <description>JiBX schema - schema-utilities parent</description>
-    <size>12881</size>
-    <documentation>http://www.jibx.org</documentation>
-    <license>http://jibx.sourceforge.net/jibx-license.html</license>
-    <capability name='bundle'>
-      <p n='symbolicname' v='org.jibx.schema.ws.utilities'/>
-      <p n='presentationname' v='Schema Library - org.opentravel.ws.client.test - opentravel.org utilities'/>
+      <p n='symbolicname' v='org.jibx.schema.net.webservicex.currencyconvertor'/>
+      <p n='presentationname' v='Schema Library - webservicex.net - currencyconverter'/>
       <p n='version' t='version' v='1.0.8'/>
       <p n='manifestversion' v='2'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.jibx.schema.ws.utilities.client'/>
+      <p n='package' v='org.jibx.schema.net.webservicex.currencyconvertor'/>
       <p n='version' t='version' v='1.0.8'/>
-      <p n='uses:' v='org.jibx.schema.ws.utilities,javax.xml.transform,javax.xml.transform.stream,org.osgi.framework,javax.xml.transform.dom,javax.xml.soap,org.w3c.dom'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
     </capability>
-    <capability name='package'>
-      <p n='package' v='org.jibx.schema.ws.utilities'/>
-      <p n='version' t='version' v='1.0.8'/>
-      <p n='uses:' v='javax.xml.namespace,org.jdom.output,javax.xml.parsers,org.jibx.extras,javax.xml.transform.dom,org.w3c.dom,org.xml.sax,javax.xml.xpath,org.jibx.runtime,javax.xml.transform,org.jdom,javax.xml.transform.stream'/>
-    </capability>
-    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=javax.xml.soap))' extend='false' multiple='false' optional='true'>Import package javax.xml.soap;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=javax.xml.xpath))' extend='false' multiple='false' optional='true'>Import package javax.xml.xpath;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.jdom))' extend='false' multiple='false' optional='true'>Import package org.jdom;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.jdom.output))' extend='false' multiple='false' optional='true'>Import package org.jdom.output;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.jibx.extras)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.extras;resolution:=optional;version="[1.2,2)"</require>
     <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
-    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
-    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+  </resource>
+  <resource id='org.jibx.schema.net.webservicex.stockquote/1.0.8' symbolicname='org.jibx.schema.net.webservicex.stockquote' presentationname='Schema Library - webservicex.net - stockquote' uri='http://repo2.maven.org/maven2/org/jibx/schema/net/webservicex/org.jibx.schema.net.webservicex.stockquote/1.0.8/org.jibx.schema.net.webservicex.stockquote-1.0.8.jar' version='1.0.8'>
+    <description>schema library parent shared settings</description>
+    <size>12681</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.schema.net.webservicex.stockquote'/>
+      <p n='presentationname' v='Schema Library - webservicex.net - stockquote'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.schema.net.webservicex.stockquote'/>
+      <p n='version' t='version' v='1.0.8'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
   </resource>
 </repository>
