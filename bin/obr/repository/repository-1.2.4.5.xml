@@ -1,0 +1,7 @@
+<repository lastmodified="20120503060643.257">
+  <referral depth="10" url="jibx-repository-1.2.4.5.xml"/>
+  <referral depth="10" url="jibx-schema-library-repository-1.0.6.xml"/>
+  <referral depth="10" url="jibx-schema-library-repository-1.0.7.xml"/>
+  <referral depth="10" url="jibx-schema-library-repository-1.0.8.xml"/>
+  <referral depth="10" url="external-repository.xml"/>
+</repository>
