@@ -1,4 +1,70 @@
-<repository lastmodified='20120516110330.576'>
+<repository lastmodified='20130202101303.068'>
+  <resource id='org.jibx.examples.cxf.ws/1.2.4.5' symbolicname='org.jibx.examples.cxf.ws' presentationname='JiBX CXF SE Bundle' uri='http://repo.maven.apache.org/maven2/org/jibx/test/examples/org.jibx.examples.cxf.ws/1.2.4.5/org.jibx.examples.cxf.ws-1.2.4.5.jar' version='1.2.4.5'>
+    <description>JiBX CXF SE Bundle</description>
+    <size>15261</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.examples.cxf.ws'/>
+      <p n='presentationname' v='JiBX CXF SE Bundle'/>
+      <p n='version' t='version' v='1.2.4.5'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.examples.cxf.ws'/>
+      <p n='version' t='version' v='1.2.4.5'/>
+      <p n='uses:' v='javax.jws.soap,org.apache.cxf.annotations,org.jibx.examples.cxf.ws.types,javax.jws,org.apache.cxf.jibx,javax.xml.ws,javax.xml.namespace'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.examples.cxf.ws.types'/>
+      <p n='version' t='version' v='1.2.4.5'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.examples.cxf.ws.impl'/>
+      <p n='version' t='version' v='1.2.4.5'/>
+      <p n='uses:' v='org.jibx.examples.cxf.ws,org.jibx.examples.cxf.ws.types,javax.jws'/>
+    </capability>
+    <require name='bundle' filter='(&amp;(symbolicname=org.apache.cxf.bundle))' extend='false' multiple='false' optional='false'>Require Bundle org.apache.cxf.bundle; 0</require>
+    <require name='package' filter='(&amp;(package=javax.jws)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.jws;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.jws.soap)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.jws.soap;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.ws))' extend='false' multiple='false' optional='true'>Import package javax.xml.ws;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.cxf.annotations)(version&gt;=2.7.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.cxf.annotations;resolution:=optional;version="[2.7,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.cxf.jibx)(version&gt;=2.7.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.cxf.jibx;resolution:=optional;version="[2.7,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.blueprint;resolution:=optional;version="[1.0.0,2.0.0)"</require>
+  </resource>
+  <resource id='org.jibx.examples.cxf.rs/1.2.4.5' symbolicname='org.jibx.examples.cxf.rs' presentationname='JiBX RESTful example' uri='http://repo.maven.apache.org/maven2/org/jibx/test/examples/org.jibx.examples.cxf.rs/1.2.4.5/org.jibx.examples.cxf.rs-1.2.4.5.jar' version='1.2.4.5'>
+    <description>JiBX Example using JAX-RS</description>
+    <size>11174</size>
+    <documentation>http://www.jibx.org</documentation>
+    <license>http://jibx.sourceforge.net/jibx-license.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jibx.examples.cxf.rs'/>
+      <p n='presentationname' v='JiBX RESTful example'/>
+      <p n='version' t='version' v='1.2.4.5'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.jaxrs'/>
+      <p n='version' t='version' v='1.2.4.5'/>
+      <p n='uses:' v='javax.ws.rs,org.jibx.customer,javax.ws.rs.core'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jibx.customer'/>
+      <p n='version' t='version' v='1.2.4.5'/>
+      <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
+    </capability>
+    <require name='bundle' filter='(&amp;(symbolicname=org.apache.cxf.bundle))' extend='false' multiple='false' optional='false'>Require Bundle org.apache.cxf.bundle; 0</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.ws.rs;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.ws.rs.core;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.cxf.jibx)(version&gt;=2.7.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.cxf.jibx;resolution:=optional;version="[2.7,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime.impl)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime.impl;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.blueprint;resolution:=optional;version="[1.0.0,2.0.0)"</require>
+  </resource>
   <resource id='jibx-bind/1.2.4.5' symbolicname='jibx-bind' presentationname='jibx-bind - JiBX binding' uri='http://repo2.maven.org/maven2/org/jibx/jibx-bind/1.2.4.5/jibx-bind-1.2.4.5.jar' version='1.2.4.5'>
     <description>JiBX binding code</description>
     <size>444238</size>
