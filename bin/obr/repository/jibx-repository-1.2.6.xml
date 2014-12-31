@@ -1,7 +1,7 @@
-<repository lastmodified='20141229102851.845'>
+<repository lastmodified='20141230102153.634'>
   <resource id='org.jibx.examples.cxf.ws/1.2.6' symbolicname='org.jibx.examples.cxf.ws' presentationname='JiBX CXF SE Bundle' uri='http://repo.maven.apache.org/maven2/org/jibx/test/examples/org.jibx.examples.cxf.ws/1.2.6/org.jibx.examples.cxf.ws-1.2.6.jar' version='1.2.6'>
     <description>JiBX CXF SE Bundle</description>
-    <size>15883</size>
+    <size>15849</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -25,7 +25,6 @@
       <p n='version' t='version' v='1.2.6'/>
       <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
     </capability>
-    <require name='bundle' filter='(&amp;(symbolicname=org.apache.cxf.bundle))' extend='false' multiple='false' optional='false'>Require Bundle org.apache.cxf.bundle; 0</require>
     <require name='package' filter='(&amp;(package=javax.jws)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.jws;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=javax.jws.soap)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.jws.soap;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
@@ -38,7 +37,7 @@
   </resource>
   <resource id='org.jibx.examples.cxf.rs/1.2.6' symbolicname='org.jibx.examples.cxf.rs' presentationname='JiBX RESTful example' uri='http://repo.maven.apache.org/maven2/org/jibx/test/examples/org.jibx.examples.cxf.rs/1.2.6/org.jibx.examples.cxf.rs-1.2.6.jar' version='1.2.6'>
     <description>JiBX Example using JAX-RS</description>
-    <size>11257</size>
+    <size>11224</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -57,7 +56,6 @@
       <p n='version' t='version' v='1.2.6'/>
       <p n='uses:' v='org.jibx.runtime,org.jibx.runtime.impl'/>
     </capability>
-    <require name='bundle' filter='(&amp;(symbolicname=org.apache.cxf.bundle))' extend='false' multiple='false' optional='false'>Require Bundle org.apache.cxf.bundle; 0</require>
     <require name='package' filter='(&amp;(package=javax.ws.rs)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.ws.rs;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.ws.rs.core;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.apache.cxf.jibx)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.cxf.jibx;resolution:=optional;version="[3.0,4)"</require>
@@ -67,7 +65,7 @@
   </resource>
   <resource id='jibx-bind/1.2.6' symbolicname='jibx-bind' presentationname='jibx-bind - JiBX binding' uri='http://repo.maven.apache.org/maven2/org/jibx/jibx-bind/1.2.6/jibx-bind-1.2.6.jar' version='1.2.6'>
     <description>JiBX binding code</description>
-    <size>443174</size>
+    <size>443172</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -127,7 +125,7 @@
   </resource>
   <resource id='jibx-extras/1.2.6' symbolicname='jibx-extras' presentationname='jibx-extras - JiBX extras' uri='http://repo.maven.apache.org/maven2/org/jibx/jibx-extras/1.2.6/jibx-extras-1.2.6.jar' version='1.2.6'>
     <description>JiBX extras code</description>
-    <size>51719</size>
+    <size>51717</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -151,7 +149,7 @@
   </resource>
   <resource id='jibx-run/1.2.6' symbolicname='jibx-run' presentationname='jibx-run - JiBX runtime' uri='http://repo.maven.apache.org/maven2/org/jibx/jibx-run/1.2.6/jibx-run-1.2.6.jar' version='1.2.6'>
     <description>JiBX runtime code</description>
-    <size>139190</size>
+    <size>139187</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -171,12 +169,12 @@
       <p n='uses:' v='javax.xml.stream,org.jibx.runtime'/>
     </capability>
     <require name='package' filter='(&amp;(package=javax.xml.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.stream;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=2.6.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[2.6,3)"</require>
+    <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=2.2.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[2.2,3)"</require>
     <require name='package' filter='(&amp;(package=org.xmlpull.v1))' extend='false' multiple='false' optional='true'>Import package org.xmlpull.v1;resolution:=optional</require>
   </resource>
   <resource id='jibx-schema/1.2.6' symbolicname='jibx-schema' presentationname='jibx-schema - JiBX schema' uri='http://repo.maven.apache.org/maven2/org/jibx/jibx-schema/1.2.6/jibx-schema-1.2.6.jar' version='1.2.6'>
     <description>JiBX schema code</description>
-    <size>278056</size>
+    <size>278057</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -227,7 +225,7 @@
   </resource>
   <resource id='jibx-tools/1.2.6' symbolicname='jibx-tools' presentationname='jibx-tools - JiBX tools' uri='http://repo.maven.apache.org/maven2/org/jibx/jibx-tools/1.2.6/jibx-tools-1.2.6.jar' version='1.2.6'>
     <description>JiBX tools code</description>
-    <size>473796</size>
+    <size>473795</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -324,7 +322,7 @@
   </resource>
   <resource id='org.jibx.schema.address/1.2.6' symbolicname='org.jibx.schema.address' presentationname='webschema-address' uri='http://repo.maven.apache.org/maven2/org/jibx/test/webschema/org.jibx.schema.address/1.2.6/org.jibx.schema.address-1.2.6.jar' version='1.2.6'>
     <description>JiBX parent shared settings</description>
-    <size>7858</size>
+    <size>7857</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -339,7 +337,7 @@
   </resource>
   <resource id='org.jibx.schema.company/1.2.6' symbolicname='org.jibx.schema.company' presentationname='webschema-company' uri='http://repo.maven.apache.org/maven2/org/jibx/test/webschema/org.jibx.schema.company/1.2.6/org.jibx.schema.company-1.2.6.jar' version='1.2.6'>
     <description>JiBX parent shared settings</description>
-    <size>7909</size>
+    <size>7906</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
@@ -354,7 +352,7 @@
   </resource>
   <resource id='org.jibx.schema.person/1.2.6' symbolicname='org.jibx.schema.person' presentationname='webschema-person' uri='http://repo.maven.apache.org/maven2/org/jibx/test/webschema/org.jibx.schema.person/1.2.6/org.jibx.schema.person-1.2.6.jar' version='1.2.6'>
     <description>JiBX parent shared settings</description>
-    <size>6827</size>
+    <size>6826</size>
     <documentation>http://www.jibx.org</documentation>
     <license>http://jibx.sourceforge.net/jibx-license.html</license>
     <capability name='bundle'>
