@@ -11,7 +11,7 @@ This is the top-level project. The sub-projects are:
 To check out a sub-project, follow the github instructions.
 To check out all the projects, check out this project and use the initsubmodules script:
 
-git clone git@github.com:jibx/jibx.git
+git clone https://github.com/jibx/jibx
 cd jibx
 bin/git/initsubmodules.sh
 
