@@ -7,3 +7,7 @@ target
 .metadata
 *.releaseBackup
 release.properties
+
+.idea
+*.iml
+*.lock

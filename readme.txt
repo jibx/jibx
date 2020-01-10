@@ -149,8 +149,8 @@ mvn site site:deploy
 #ssh doncorley,jibx@shell.sourceforge.net
 #ssh -t doncorley,jibx@shell.sourceforge.net create
 #cd /home/project-web/jibx/htdocs/
-#rm -fr maven-jibx-plugin
-#cp -r jibx-maven-plugin maven-jibx-plugin
+#rm -fr jibx-maven-plugin
+#cp -r jibx-maven-plugin jibx-maven-plugin
 #----
 cd ../../schema-library
 # Edit archetype pom file to reflect the release version
