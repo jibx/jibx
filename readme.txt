@@ -28,10 +28,10 @@ mvn install
 cd ../core/build
 ant -f build-ivy.xml
 ant
-cd maven
+cd ..
 mvn install
 
-cd ../../../plugins/maven-plugin/
+cd ../plugins/maven-plugin/
 mvn install
 
 Developers:
