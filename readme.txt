@@ -34,6 +34,9 @@ mvn install
 cd ../plugins/maven-plugin/
 mvn install
 
+cd ../../schema-library
+mvn install
+
 Developers:
 
 To release to maven central, you will need to sign up with nexus. Just follow these instructions:
