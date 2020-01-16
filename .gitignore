@@ -11,3 +11,4 @@ release.properties
 .idea
 *.iml
 *.lock
+bin/obr/repository/*-SNAPSHOT.xml
