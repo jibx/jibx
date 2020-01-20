@@ -29,6 +29,7 @@ cd ../core/build
 ant -f build-ivy.xml
 ant
 cd ..
+mv jibx_*.zip lib/
 mvn install
 
 cd ../plugins/maven-plugin/
