@@ -22,3 +22,6 @@
 [submodule "web-services/xbis"]
 	path = web-services/xbis
 	url = https://github.com/jibx/xbis
+[submodule "artifacts"]
+	path = artifacts
+	url = https://github.com/jibx/artifacts.git

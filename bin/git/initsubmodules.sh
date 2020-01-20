@@ -9,7 +9,8 @@ for dir in jibx-parent \
 ../../sub-projects \
 ../plugins/maven-plugin \
 ../../plugins/jibx-eclipse \
-../../schema-library; do
+../../schema-library \
+../../artifacts; do
 echo $dir
 cd $dir
 git checkout master
