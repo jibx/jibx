@@ -10,7 +10,7 @@ for dir in jibx-parent \
 ../plugins/maven-plugin \
 ../../plugins/jibx-eclipse \
 ../../schema-library \
-../../artifacts; do
+../artifacts; do
 echo $dir
 cd $dir
 git pull origin master
