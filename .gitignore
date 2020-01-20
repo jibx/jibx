@@ -11,4 +11,4 @@ release.properties
 .idea
 *.iml
 *.lock
-bin/obr/repository/*-SNAPSHOT.xml
+artifacts/artifacts/src/main/resources/obr/repository/*-SNAPSHOT.xml
