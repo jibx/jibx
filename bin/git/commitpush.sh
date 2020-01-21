@@ -10,6 +10,7 @@ for dir in jibx-parent \
 ../plugins/maven-plugin \
 ../../plugins/jibx-eclipse \
 ../../schema-library \
+../external \
 ../artifacts; do
 echo $dir
 cd $dir

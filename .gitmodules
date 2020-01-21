@@ -25,3 +25,6 @@
 [submodule "artifacts"]
 	path = artifacts
 	url = https://github.com/jibx/artifacts.git
+[submodule "external"]
+	path = external
+	url = https://github.com/jibx/external.git

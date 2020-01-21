@@ -16,6 +16,7 @@
     <module>plugins</module>
     <!-- module>web-services</module -->
     <module>schema-library</module>
+    <module>external</module>
   </modules>
 
   <scm>
