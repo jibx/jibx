@@ -17,9 +17,9 @@ bin/git/initsubmodules.sh
 
 NOTE: If you want readonly access, replace line 1 with this: git clone -b readonly git://github.com/jibx/jibx.git
 
--- If you make a change to a submodule there you must sync this master project by doing this from the main(jibx) directory:
+-- If you make a change to a submodule, use this script to sync the main(jibx) directory:
 
-bin/git/commitall.sh "Commiting a submodule"
+bin/git/commitpush.sh "Commiting a submodule"
 
 To build all the projects, do the following:
 
@@ -110,8 +110,14 @@ cd build
 # Edit the build.xml and set the correct release version
 ant -f build-ivy.xml
 ant
+rm lib/*.jar
+rm lib/*.zip
+cd build
+# Edit the build.xml and set the correct release version
+ant -f build-ivy.xml
+ant
 cd ..
-mv jibx_x_x_x.zip lib/
+mv jibx*.zip lib/
 # Edit build.xml and set the next snapshot version
 ############## Upload core/lib/jibx_x_x_x.zip to sourceforge.
 cd ..
@@ -155,6 +161,9 @@ mvn site site:deploy
 #cd /home/project-web/jibx/htdocs/
 #rm -fr jibx-maven-plugin
 #cp -r jibx-maven-plugin jibx-maven-plugin
+#---- Note: Add Externals here
+cd ../../external
+
 #----
 cd ../../schema-library
 # Edit archetype pom file to reflect the release version
