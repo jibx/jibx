@@ -162,10 +162,16 @@ mvn site site:deploy
 #rm -fr jibx-maven-plugin
 #cp -r jibx-maven-plugin jibx-maven-plugin
 #---- Note: Add Externals here
-cd ../../external
-
+cd ../../../../../../external
+mvn versions:update-parent
+mvn versions:use-releases
+mvn versions:commit
+git commit -am "Preparing for release"
+git push
+mvn release:prepare
+mvn release:perform
 #----
-cd ../../schema-library
+cd ../schema-library
 # Edit archetype pom file to reflect the release version
 mvn versions:update-parent
 mvn versions:commit
@@ -178,6 +184,15 @@ mvn site site:deploy
 rm org.opentravel/_2010B/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
 rm org.opentravel/_2011B/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
 rm org.opentravel/_2011A/opentravel-schema/schema/src/main/schema/ota-schema/*.xsd
+#---- Note: Add Artifacts here
+cd ../artifacts
+mvn versions:update-parent
+mvn versions:use-releases
+mvn versions:commit
+git commit -am "Preparing for release"
+git push
+mvn release:prepare
+mvn release:perform
 
 ----------------------------------------------------------------------
 
