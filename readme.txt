@@ -110,6 +110,7 @@ cd build
 # Edit the build.xml and set the correct release version
 ant -f build-ivy.xml
 ant
+cd ..
 rm lib/*.jar
 rm lib/*.zip
 cd build
