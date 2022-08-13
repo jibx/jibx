@@ -14,8 +14,8 @@
   <name>jibx-plugins-reactor - JiBX plugins top-level project</name>
   <description>JiBX plugins top-level project</description>
 
-      <modules>
-        <module>maven-plugin</module>
-      </modules>
+  <modules>
+    <module>maven-plugin</module>
+  </modules>
 
 </project>
